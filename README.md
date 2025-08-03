@@ -142,7 +142,7 @@ By analyzing EEG signals through hypnograms, band power, PSD, and heatmaps, we g
 
 ---
 
-🧰 Tools & Libraries
+## 🧰 Tools & Libraries
 - Python
 - NumPy, Pandas
 - Matplotlib, Seaborn
