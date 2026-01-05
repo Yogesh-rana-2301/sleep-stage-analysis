@@ -1,10 +1,10 @@
-# 🧠 Sleep Stage Analysis using EEG Data
+# Sleep Stage Analysis using EEG Data
 
 This project analyzes **EEG data from 10 subjects**—including **5 normal**, **3 insomniacs**, and **2 narcoleptic**—sourced from the **CAP Sleep Database**. We focus on extracting, visualizing, and comparing sleep stage patterns using EEG signal processing and various analysis techniques.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Source**: [CAP Sleep Database](https://physionet.org/content/sleep-edfx/1.0.0/)
 - **Subjects**:  
@@ -18,7 +18,7 @@ This project analyzes **EEG data from 10 subjects**—including **5 normal**, **
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - Extract sleep stage annotations
 - Create **hypnograms** to visualize stage transitions
@@ -29,7 +29,7 @@ This project analyzes **EEG data from 10 subjects**—including **5 normal**, **
 
 ---
 
-## 🛠️ Preprocessing & Annotation Extraction
+## Preprocessing & Annotation Extraction
 
 - Parse `.txt` files to extract labeled sleep stages
 - Convert annotations into DataFrames
@@ -37,27 +37,27 @@ This project analyzes **EEG data from 10 subjects**—including **5 normal**, **
 
 ---
 
-## 🛌 Hypnograms
+## Hypnograms
 
-### ✅ Normal Subject
+### Normal Subject
 - Clear cyclic progression through sleep stages
 - Prominent deep sleep (S3) early in the night
 - REM sleep appears more in later hours
 - Sparse and even MCAP distribution
 
-### ❗ Insomniac Subject
+### Insomniac Subject
 - Long wakeful periods
 - Fragmented transitions and reduced REM
 - Clustered MCAP events (micro-arousals)
 
-### ⚡ Narcoleptic Subject
+### Narcoleptic Subject
 - Abrupt transitions between Wake, REM, and light sleep
 - Early REM onset, fragmented cycles
 - Abnormal Delta wave presence during wake stages
 
 ---
 
-## 📊 Band Power Analysis
+## Band Power Analysis
 
 | Band   | Frequency Range | Significance              |
 |--------|------------------|---------------------------|
@@ -80,7 +80,7 @@ This project analyzes **EEG data from 10 subjects**—including **5 normal**, **
 
 ---
 
-## 📈 Power Spectral Density (PSD)
+## Power Spectral Density (PSD)
 
 Used to observe how power is distributed across frequency bands.
 
@@ -98,7 +98,7 @@ Used to observe how power is distributed across frequency bands.
 
 ---
 
-## 🌡️ EEG Frequency Heatmaps
+## EEG Frequency Heatmaps
 
 ### Normal Subjects
 - High Delta wave power across all brain regions
@@ -114,7 +114,7 @@ Used to observe how power is distributed across frequency bands.
 
 ---
 
-## 🔥 Time Domain & Channel Heatmaps
+## Time Domain & Channel Heatmaps
 
 ### Normal Subject
 - Smooth Delta dominance  
@@ -130,7 +130,7 @@ Used to observe how power is distributed across frequency bands.
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This study highlights distinct sleep characteristics for:
 
@@ -142,7 +142,7 @@ By analyzing EEG signals through hypnograms, band power, PSD, and heatmaps, we g
 
 ---
 
-## 🧰 Tools & Libraries
+## Tools & Libraries
 - Python
 - NumPy, Pandas
 - Matplotlib, Seaborn
